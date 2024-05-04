@@ -9,7 +9,9 @@ app.use(express.json())
 app.use(cors())
 
 //app.use(createDatabase)
-
+app.get('/',(req,res)=>{
+  res.send('<h1>Home Page</h1>')
+})
 const userRouter = require('./routes/userRoute')
 const accountRouter = require('./routes/accountRoute')
 const fileRouter = require('./routes/fileRoute')
