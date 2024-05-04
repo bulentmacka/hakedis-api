@@ -10,7 +10,7 @@ app.use(cors())
 
 //app.use(createDatabase)
 app.get('/',(req,res)=>{
-  res.send('<h1>Home Page</h1>')
+  res.send('merhaba ben hakedis-api')
 })
 const userRouter = require('./routes/userRoute')
 const accountRouter = require('./routes/accountRoute')
