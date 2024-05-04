@@ -23,7 +23,7 @@ const allowanceRouter = require('./routes/allowanceRoute')
 const tuikRouter = require('./routes/tuikRoute')
 const reportRouter = require('./routes/reportRoute')
 const priceDifferenceRouter = require('./routes/priceDifferenceRoute')
-const url = 'http://localhost:6161'
+
 app.use(`/users`,userRouter)
 app.use(`/login`,accountRouter)
 app.use('/files',fileRouter)
